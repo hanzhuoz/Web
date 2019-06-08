@@ -63,20 +63,20 @@
         }
 
         #nav_1{
-        	width:401px;
-        	height:35px;
+        	width:402px;
+        	height:40px;
         	border:2px solid red;
         	float:right;
 
         	margin-top: 40px;
         	margin-right:0px; 
-        	padding-top:5px;
-        	padding-left:5px;
+        	/*padding-top:5px;
+        	padding-left:5px;*/
         }
-        #nav_1 p{
+        /*#nav_1 p{
         	color:#ccc;
         	
-        }
+        }*/
         #nav_2{
         	width:72px;
         	height:20px;
@@ -85,7 +85,7 @@
         	float:right;
         	margin-top: 40px;
         	margin-right:150px;
-        	padding-top:10px;
+            padding-top:10px;
         	padding-bottom:10px;
         	padding-left:28px;
         }
@@ -103,6 +103,12 @@
             margin-right:20px;
             padding-left:10px;
             padding-top:5px;
+        }
+        input{
+        	width:401px;
+        	height:36px;
+        	color:#ccc;
+        	
         }
         #n0{
             color:red;
@@ -265,7 +271,10 @@
      			<a href = "#">搜索</a>
      		    </div>
      		    <div id = "nav_1">
-     			<p>请输入关键词！</p>
+     			<!--<p>请输入关键词！</p>-->
+     			<form>
+     				<input type = "text" name = "输入" value = "请输入关键词！">
+     			</form>
      		    </div>
      		<ul>
      			<li><a href = "#">首页</a></li>
