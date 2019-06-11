@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zuoye07</title>
+	<meta charset = "utf-8">
+    <style type = "text/css">
+        *{
+        	margin:0;
+        	padding:0;
+        }
+        a{
+        	text-decoration:none;
+        }
+        li{
+        	list-style-type:none;
+        }
+        .top{
+            height:30px;
+            background-color:#f5f5f5;
+            font-size:12px;
+        }
+        .top div{
+            width:1200px;
+            margin:0 auto;
+            padding-top:5px;  	
+        }
+        .top_1{
+        	float:left;
+        }
+        .top img{
+        	float:left;
+        }
+        #top_1{
+        	float:right;
+        	text-align:right; 
+        }
+        #top_2{
+        	float:right;
+        	text-align:right;
+        }
+        .nav{
+        	height:160px;
+        	background-color:#fff;
+        	border-bottom:3px solid red;
+        }
+        .nav div{
+        	width:1200px;
+        	margin:0 auto;
+        }
+        .nav ul li{
+        	float:left;
+         	width:120px;
+         	line-height:70px;
+         	font-size:18px;
+
+        }
+        .nav a{
+        	color:#000;
+        }
+        .nav a:hover{
+            color:#fff;
+            background-color:red;
+        }
+
+        #nav_1{
+        	width:402px;
+        	height:40px;
+        	border:2px solid red;
+        	float:right;
+
+        	margin-top: 40px;
+        	margin-right:0px; 
+        }
+        #nav_2{
+        	width:72px;
+        	height:20px;
+        	border:2px solid red;
+        	background-color:red;
+        	float:right;
+        	margin-top: 40px;
+        	margin-right:150px;
+            padding-top:10px;
+        	padding-bottom:10px;
+        	padding-left:28px;
+        }
+        #nav_2 a{
+        	font-size:18px;
+        	color:#fff;
+        }
+        #nav_3{
+        	width:140px;
+        	height:35px;
+        	border:1px solid #ddd;
+          background-color:#f5f5f5;
+          float:right;
+          margin-top:35px;
+          margin-right:20px;
+          padding-left:10px;
+          padding-top:5px;
+        }
+        #nav_1 input{
+        	width:401px;
+        	height:38px;
+        	color:#E0E0E0;
+          border:1px solid red;
+        	
+        }
+        #n0{
+            color:red;
+        }
+        .center{
+        	height:653px;
+        	background-color: #f5f5f5;
+        }
+        .center div{
+        	width:1200px;
+        	margin:0 auto;
+        	font-size:15px;
+        	line-height:75px;
+        }
+        .upcenter{
+        	margin-top:75px;
+        	width:1200px;
+        	height:565px;
+        }
+        .down{
+        	height:250px;
+        	background-color: #333;
+        }
+        #one{
+        	width:215px;
+        	height:565px;
+        	background-color:#fff;
+        	/*background-image:url(img/fenlei.png);
+        	background-repeat:no-repeat;
+        	background-position:;*/
+        	margin-bottom:  12px;
+        	float:left;
+        	padding-left:0px;
+        }
+        #one p{
+        	font-size:18px;
+        	text-align:center
+        }
+        #lei {
+          margin:10px;
+          text-indent:20px;
+        }
+        #pic{
+          width:10px;
+          height:10px;
+          margin-left:30px;
+          margin-top:10px;
+        }
+        #one li{
+        	text-indent:80px;
+        	line-height:50px;
+        }
+        #one a{
+        	color:#000;
+        }
+        #one a:hover{
+        	color:red;
+        }
+        #two{
+        	width:975px;
+        	height:565px;
+        	background-color:#fff;
+        	margin-left:10px;
+        	margin-bottom:  12px;
+        	float:left;
+        }
+        #center{
+        	width:215px;
+        	height:10px;
+        	background-color:#f5f5f5;
+          margin-top:0px;
+        }
+        #two div{
+            width:182px;
+            height:234px;
+            border:1px solid #ccc;
+            float:left;
+            margin:9px;
+            padding-left:40px;
+            padding-top:20px;
+        }
+        #two img{
+        	width:150px;
+        	height:150px;
+        }
+        .two_2{
+        	color:#999;
+        	text-align:center;
+        	line-height:20px;
+        }
+        .two_1{
+        	color:#000;
+            text-align:center;
+        	line-height:20px;
+        }
+        .two_1 img{
+        	width:5px;
+        	height:5px;
+        }
+        .downcenter{
+        	width:1200px;
+        	height:150px;
+        	margin:0 auto;
+        	border-bottom:1px solid #999;
+        }
+        .downcenter li{
+        	font-size:15px;
+        	line-height:35px;
+        	width:240px;
+        	color:#fff;
+        	
+        }
+        #down_1{
+        	width:100px;
+        	float:left;
+        	margin-right:175px;
+        }
+        #down_2{
+        	width:100px;
+        	float:left;
+        	margin-right:175px;
+        }
+        #down_3{
+        	width:100px;
+        	float:left;
+        	margin-right:175px;
+        }
+        #down_4{
+        	width:100px;
+        	float:left;
+        	margin-right:175px;
+        }
+        #down_5{
+        	width:100px;
+        	float:left;
+        }
+        #down_6{
+        	width:630px;
+        	height:96px;
+        	margin:0 auto;
+        }
+        #down_6 p{
+        	font-size:13px;
+        	color:#ccc;
+        	line-height:40px;
+        	text-align:center;
+        }
+    </style>
+</head>
+<body>
+     <div class = "top">
+     	<div>
+            <p>
+            	<span class = "top_1">我的收藏 E族之家手机版</span>
+            	<img src = "img/qq.jpg" alt = "">
+            	<span class = "top_1">328203328</span>
+            	<span id = "top_2">&nbsp; 欢迎来到E族之家，请登录 | 注册</span>
+            	<span id = "top_1">扫描加入</span>
+            </p>
+     	</div>
+     </div>
+     <div class = "nav">
+     	<div>
+     		<img src = "img/logo2.png" alt = "">
+     		    <div id = "nav_3">
+     			<img src = "img/shopping.png" alt = "">
+     			<span>购物车(</span><span id = "n0">0</span><span>)件</span>
+     		    </div>
+     		    <div id = "nav_2">
+     			<a href = "#">搜索</a>
+     		    </div>
+     		    <div id = "nav_1">
+     			<form>
+     				<input type = "text" name = "输入" value = "请输入关键词！">
+     			</form>
+     		    </div>
+     		<ul>
+     			<li><a href = "#">首页</a></li>
+     			<li><a href = "#">E族生活</a></li>
+     			<li><a href = "#">E族服务</a></li>
+     			<li><a href = "#">E族爱心</a></li>
+     		</ul>
+     		
+     	</div>
+     </div>
+     <div class ="center">
+        <div>
+        	<span>当前位置：E族爱心>食品</span>
+        	<div class = "upcenter">
+        	    <div id = "one">
+        		    <span id ="pic"><img src = "img/fenlei.png" alt =""></span>
+        		    <span id = "lei">全部分类</span>
+        		    <div id = "center">
+        		    </div>
+        		    <ul>
+        		       <li><a href = "#">>食品</a></li>
+        	    	   <li><a href = "#">>生活用品</a></li>
+        	    	</ul>
+        	    </div>
+        	    <div id = "two">
+                       <div id = "left_1"><img src ="img/tupian1.jpg" alt = "">
+                       	<p class = "two_2">精品辣椒100g</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_2"><img/src = "img/tupian2.jpg" alt = "">
+                       	<p class = "two_2">特级百香果3斤</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_3"><img src = "img/tupian3.jpg" alt ="">
+                       	<p class = "two_2">万威啤酒500ml</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_4"><img src = "img/tupian4.jpg" alt = "">
+                       	<p class = "two_2">万威啤酒500ml</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_5"><img src ="img/tupian1.jpg" alt = "">
+                       	<p class = "two_2">精品辣椒100g</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_6"><img/src = "img/tupian2.jpg" alt = "">
+                       	<p class = "two_2">特级百香果3斤</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_7"><img src = "img/tupian3.jpg" alt ="">
+                       	<p class = "two_2">万威啤酒500ml</p><p class = "two_1">¥ 90.00</p></div>
+                       <div id = "left_8"><img src = "img/tupian4.jpg" alt = "">
+                       	<p class = "two_2">万威啤酒500ml</p><p class = "two_1">¥ 90.00</p></div>
+        	    </div>    
+        	</div>
+        </div>
+     </div>
+     <div class ="down">
+          <div class ="downcenter">
+          	<div id ="down_1">
+          	<ul>
+          		<li>新手上路</li>
+          		<li>售后流程</li>
+          		<li>购物流程</li>
+          		<li>订购方式</li>
+          	</ul>
+          </div>
+          <div id ="down_2">
+          	    <li>配送方式</li>
+          		<li>货到付款区域</li>
+          		<li>配送支付查询</li>
+          		<li>支付方式说明</li>
+          </div>
+          <div id ="down_3">
+            <ul>
+          		<li>购物指南</li>
+          		<li>常见问题</li>
+          		<li>订购流程</li>
+          		<li>注册新会员</li>
+          	</ul>
+          </div>
+          <div id ="down_4">
+          	<ul>
+          		<li>售后服务</li>
+          		<li>退换货原则</li>
+          		<li>售后服务保证</li>
+          		<li>换货流程</li>
+          	</ul>
+          </div>
+          <div id ="down_5">
+          	<ul>
+          		<li>关于我们</li>
+          		<li>网站故障报告</li>
+          		<li>联系我们</li>
+          		<li>投诉与建议</li>
+          	</ul>
+          </div>
+          </div>
+          <div id = "down_6">
+          	<p>E族生活 &nbsp;| &nbsp;居家维修保养&nbsp; |&nbsp; 住宿优惠信息 &nbsp;| &nbsp;出行接送&nbsp; | &nbsp;E族活动&nbsp; | &nbsp;E族爱心&nbsp; | &nbsp;积分商城</p>
+          	<p><img src = "img/yuanquan.jpg" alt = "">2017-2018 E族之家 版权所有，并保留所有权利。		ICP备案证书号：粤ICP备17127392号
+          	<p>
+          </div>
+     </div>
+</body>
+</html>
